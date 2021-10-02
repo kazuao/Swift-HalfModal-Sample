@@ -47,7 +47,6 @@ extension PanModalViewController {
         }
         cell.textLabel?.textAlignment = .center
         cell.textLabel?.text = rowType.presentable.string
-        cell.textLabel?.font = UIFont(name: "Lato-Regular", size: 17.0)
         return cell
     }
 }
@@ -63,10 +62,9 @@ extension PanModalViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
 
-        guard let rowType = RowType(rawValue: indexPath.row) else {
-            return
-        }
-        dismiss(animated: true, completion: nil)
+        guard let rowType = RowType(rawValue: indexPath.row) else { return }
+        
+        dismiss(animated: true)
         presentPanModal(rowType.presentable.rowVC)
     }
 }
@@ -92,13 +90,13 @@ private extension PanModalViewController {
 
         var presentable: RowPresentable {
             switch self {
-            case .basic: return Basic()
-            case .fullScreen: return FullScreen()
-            case .alert: return Alert()
+            case .basic:          return Basic()
+            case .fullScreen:     return FullScreen()
+            case .alert:          return Alert()
             case .transientAlert: return TransientAlert()
-            case .userGroups: return UserGroup()
-            case .stacked: return Stacked()
-            case .navController: return Navigation()
+            case .userGroups:     return UserGroup()
+            case .stacked:        return Stacked()
+            case .navController:  return Navigation()
             }
         }
 

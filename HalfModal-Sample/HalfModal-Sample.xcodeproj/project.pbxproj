@@ -134,7 +134,6 @@
 			children = (
 				41581DBF2706714B00F55BAF /* ViewController.swift */,
 				41581DC12706714B00F55BAF /* Main.storyboard */,
-				41581DF72706770000F55BAF /* ContentViewController.swift */,
 				41581DEE270671E900F55BAF /* FloatingPanel */,
 				41581DF92706824700F55BAF /* PanModal */,
 			);
@@ -146,6 +145,7 @@
 			children = (
 				41581DF4270675D100F55BAF /* FloatingPanelViewController.swift */,
 				41581DF2270675C200F55BAF /* FloatingPanel.storyboard */,
+				41581DF72706770000F55BAF /* ContentViewController.swift */,
 			);
 			path = FloatingPanel;
 			sourceTree = "<group>";

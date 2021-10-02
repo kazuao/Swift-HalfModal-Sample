@@ -13,7 +13,7 @@ class FullScreenNavViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        pushViewController(FullScreenNavViewController(), animated: true)
+        pushViewController(FullScreenViewController(), animated: true)
     }
 }
 

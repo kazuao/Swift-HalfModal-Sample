@@ -75,9 +75,3 @@ private extension AlertViewController {
         alertView.heightAnchor.constraint(equalToConstant: alertViewHeight).isActive = true
     }
 }
-
-
-//extension AlertViewController: PanModalPresentable {
-    
-
-//}

@@ -14,10 +14,6 @@ class ContentViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         
         tableView.backgroundColor = .green
-//        tableView.autoresizingMask = [
-//          .flexibleWidth,
-//          .flexibleHeight
-//        ]
         
         return tableView
     }()
