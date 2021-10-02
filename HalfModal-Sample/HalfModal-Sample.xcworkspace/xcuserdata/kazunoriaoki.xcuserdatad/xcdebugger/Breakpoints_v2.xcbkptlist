@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DBA365BD-6F72-450B-A581-985F3CF75511"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDA5DAC5-BAAB-4F39-BD12-721C2C6B560D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HalfModal-Sample/Controllers/PanModal/PaneModalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "tableView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "FDA5DAC5-BAAB-4F39-BD12-721C2C6B560D - 36e53a3c028e25c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UITableView in variable initialization expression of HalfModal_Sample.PaneModalViewController.tableView : __C.UITableView"
+                  moduleName = "HalfModal-Sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazunoriaoki/Practice/Swift/Swift-HalfModal-Sample/HalfModal-Sample/HalfModal-Sample/Controllers/PanModal/PaneModalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "FDA5DAC5-BAAB-4F39-BD12-721C2C6B560D - 309bcc68561e6d47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HalfModal_Sample.PaneModalViewController.tableView.getter : __C.UITableView"
+                  moduleName = "HalfModal-Sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazunoriaoki/Practice/Swift/Swift-HalfModal-Sample/HalfModal-Sample/HalfModal-Sample/Controllers/PanModal/PaneModalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "FDA5DAC5-BAAB-4F39-BD12-721C2C6B560D - 4cea91cd9250ad7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HalfModal_Sample.PaneModalViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HalfModal_Sample.PaneModalViewController"
+                  moduleName = "HalfModal-Sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazunoriaoki/Practice/Swift/Swift-HalfModal-Sample/HalfModal-Sample/HalfModal-Sample/Controllers/PanModal/PaneModalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "FDA5DAC5-BAAB-4F39-BD12-721C2C6B560D - d102002fd1ecd634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HalfModal_Sample.PaneModalViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HalfModal_Sample.PaneModalViewController&gt;"
+                  moduleName = "HalfModal-Sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazunoriaoki/Practice/Swift/Swift-HalfModal-Sample/HalfModal-Sample/HalfModal-Sample/Controllers/PanModal/PaneModalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29D251B7-F736-4404-9859-B4A76F6E9243"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HalfModal-Sample/Controllers/PanModal/PaneModalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

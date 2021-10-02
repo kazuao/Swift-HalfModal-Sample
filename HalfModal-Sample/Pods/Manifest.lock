@@ -1,0 +1,20 @@
+PODS:
+  - FloatingPanel (2.5.0)
+  - PanModal (1.2.7)
+
+DEPENDENCIES:
+  - FloatingPanel
+  - PanModal
+
+SPEC REPOS:
+  trunk:
+    - FloatingPanel
+    - PanModal
+
+SPEC CHECKSUMS:
+  FloatingPanel: ddb1c8cbbacd164cfee651c449febe867a28e2cb
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+
+PODFILE CHECKSUM: 1de35b3e4042f5d8e5c161920cf108970964fbce
+
+COCOAPODS: 1.11.2
