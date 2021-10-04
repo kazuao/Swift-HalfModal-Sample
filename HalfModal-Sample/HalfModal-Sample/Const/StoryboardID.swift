@@ -9,6 +9,4 @@ import Foundation
 
 enum StoryboardID: String {
     case floatingPanel = "FloatingPanel"
-    case panModal      = "PanModal"
-    case selfModal     = "SelfModal"
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E2A1EC1270BB97F0015CA58 /* SheetPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A1EC0270BB97F0015CA58 /* SheetPresentationViewController.swift */; };
+		0E2A1EC3270BBCCF0015CA58 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A1EC2270BBCCF0015CA58 /* ContentViewController.swift */; };
 		41581DBC2706714B00F55BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41581DBB2706714B00F55BAF /* AppDelegate.swift */; };
 		41581DBE2706714B00F55BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41581DBD2706714B00F55BAF /* SceneDelegate.swift */; };
 		41581DC02706714B00F55BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41581DBF2706714B00F55BAF /* ViewController.swift */; };
@@ -16,7 +18,6 @@
 		41581DF12706752100F55BAF /* StoryboardID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41581DF02706752100F55BAF /* StoryboardID.swift */; };
 		41581DF3270675C200F55BAF /* FloatingPanel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41581DF2270675C200F55BAF /* FloatingPanel.storyboard */; };
 		41581DF5270675D100F55BAF /* FloatingPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41581DF4270675D100F55BAF /* FloatingPanelViewController.swift */; };
-		41581DF82706770000F55BAF /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41581DF72706770000F55BAF /* ContentViewController.swift */; };
 		418AC3972706891300E21CD4 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AC3962706891300E21CD4 /* BasicViewController.swift */; };
 		418AC399270689EC00E21CD4 /* FullScreenNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AC398270689EC00E21CD4 /* FullScreenNavViewController.swift */; };
 		418AC39B27068C9000E21CD4 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AC39A27068C9000E21CD4 /* AlertViewController.swift */; };
@@ -36,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E2A1EC0270BB97F0015CA58 /* SheetPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPresentationViewController.swift; sourceTree = "<group>"; };
+		0E2A1EC2270BBCCF0015CA58 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		41581DB82706714B00F55BAF /* HalfModal-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HalfModal-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41581DBB2706714B00F55BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41581DBD2706714B00F55BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		41581DF02706752100F55BAF /* StoryboardID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardID.swift; sourceTree = "<group>"; };
 		41581DF2270675C200F55BAF /* FloatingPanel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FloatingPanel.storyboard; sourceTree = "<group>"; };
 		41581DF4270675D100F55BAF /* FloatingPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelViewController.swift; sourceTree = "<group>"; };
-		41581DF72706770000F55BAF /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentViewController.swift; path = "/Users/kazunoriaoki/Practice/Swift/Swift-HalfModal-Sample/HalfModal-Sample/HalfModal-Sample/Controllers/ContentViewController.swift"; sourceTree = "<absolute>"; };
 		418AC3962706891300E21CD4 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BasicViewController.swift; path = "HalfModal-Sample/Controllers/PanModal/Basic/BasicViewController.swift"; sourceTree = SOURCE_ROOT; };
 		418AC398270689EC00E21CD4 /* FullScreenNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenNavViewController.swift; sourceTree = "<group>"; };
 		418AC39A27068C9000E21CD4 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = "HalfModal-Sample/Controllers/PanModal/Alert/AlertViewController.swift"; sourceTree = SOURCE_ROOT; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2A1EBF270BB95B0015CA58 /* SheetPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				0E2A1EC0270BB97F0015CA58 /* SheetPresentationViewController.swift */,
+			);
+			path = SheetPresentation;
+			sourceTree = "<group>";
+		};
 		41581DAF2706714B00F55BAF = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +146,7 @@
 				41581DC12706714B00F55BAF /* Main.storyboard */,
 				41581DEE270671E900F55BAF /* FloatingPanel */,
 				41581DF92706824700F55BAF /* PanModal */,
+				0E2A1EBF270BB95B0015CA58 /* SheetPresentation */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,7 +156,7 @@
 			children = (
 				41581DF4270675D100F55BAF /* FloatingPanelViewController.swift */,
 				41581DF2270675C200F55BAF /* FloatingPanel.storyboard */,
-				41581DF72706770000F55BAF /* ContentViewController.swift */,
+				0E2A1EC2270BBCCF0015CA58 /* ContentViewController.swift */,
 			);
 			path = FloatingPanel;
 			sourceTree = "<group>";
@@ -385,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2A1EC1270BB97F0015CA58 /* SheetPresentationViewController.swift in Sources */,
 				418AC3A52706949500E21CD4 /* UserGroupHeaderPresentable.swift in Sources */,
 				418AC3A027068E8900E21CD4 /* TransientAlertViewController.swift in Sources */,
 				41581DC02706714B00F55BAF /* ViewController.swift in Sources */,
@@ -392,6 +404,7 @@
 				418AC3AA270696EE00E21CD4 /* UserGroupHeaderView.swift in Sources */,
 				41581DF5270675D100F55BAF /* FloatingPanelViewController.swift in Sources */,
 				41D7BFCE2706869500EB513D /* PanModalViewController.swift in Sources */,
+				0E2A1EC3270BBCCF0015CA58 /* ContentViewController.swift in Sources */,
 				418AC39D27068CA600E21CD4 /* AlertView.swift in Sources */,
 				418AC3A22706911C00E21CD4 /* UserGroupViewController.swift in Sources */,
 				418AC3B62706993000E21CD4 /* StackedProfileViewController.swift in Sources */,
@@ -400,7 +413,6 @@
 				41581DBC2706714B00F55BAF /* AppDelegate.swift in Sources */,
 				41581DBE2706714B00F55BAF /* SceneDelegate.swift in Sources */,
 				418AC3972706891300E21CD4 /* BasicViewController.swift in Sources */,
-				41581DF82706770000F55BAF /* ContentViewController.swift in Sources */,
 				41581DF12706752100F55BAF /* StoryboardID.swift in Sources */,
 				418AC3B9270699A300E21CD4 /* NavigationController.swift in Sources */,
 				418AC3BB270699C400E21CD4 /* ProfileViewController.swift in Sources */,
@@ -554,8 +566,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				DEVELOPMENT_TEAM = R6YNJ9HW8W;
 				INFOPLIST_FILE = "HalfModal-Sample/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -574,8 +587,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				DEVELOPMENT_TEAM = R6YNJ9HW8W;
 				INFOPLIST_FILE = "HalfModal-Sample/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

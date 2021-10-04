@@ -32,7 +32,8 @@ extension ViewController {
     }
     
     @IBAction func tapSelfButton(_ sender: Any) {
-        
+        let vc = SheetPresentationViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
