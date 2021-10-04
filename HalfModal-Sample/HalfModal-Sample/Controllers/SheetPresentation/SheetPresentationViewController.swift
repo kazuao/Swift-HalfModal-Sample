@@ -9,7 +9,20 @@ import UIKit
 import PhotosUI
 
 class SheetPresentationViewController: UIViewController {
+    
+    // MARK: UI
+    private let button: UIButton = {
+        let button = UIButton()
+        button.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
+                
+        button.setTitle("Half Modal", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        
+        return button
+    }()
 
+    
+    // MARK: LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,16 +35,11 @@ class SheetPresentationViewController: UIViewController {
 private extension SheetPresentationViewController {
     
     func setup() {
-        let button = UIButton()
-        button.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
                 
-        button.setTitle("Half Modal", for: .normal)
-        button.setTitleColor(.white, for: .normal)
-        
         view.addSubview(button)
         button.center = view.center
         
-        button.addAction(.init { _ in
+        button.addAction(.init { [unowned self] _ in
             self.showSheet()
         }, for: .touchUpInside)
     }
